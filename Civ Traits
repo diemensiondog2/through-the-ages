@@ -1,0 +1,17 @@
+<GameData>
+  <Traits>
+    	<Row>
+			<Type>TRAIT_LAND_TRADE_GOLD</Type>
+			<Description>TXT_KEY_TRAIT_LAND_TRADE_GOLD2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LAND_TRADE_GOLD2_SHORT</ShortDescription>
+			<FaithFromKills>100</EmbarkedToLandFlatCost>
+		</Row>
+    <Row>
+			<Type>TRAIT_WONDER_BUILDER</Type>
+			<Description>TXT_KEY_TRAIT_WONDER_BUILDER</Description>
+			<ShortDescription>TXT_KEY_TRAIT_WONDER_BUILDER_SHORT</ShortDescription>
+			<WonderProductionModifier>25</WonderProductionModifier>
+			<CapitalBuildingModifier>20</CapitalBuildingModifier> 
+		</Row>
+  </Traits>
+</GameData>
