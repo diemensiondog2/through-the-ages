@@ -1,17 +1,26 @@
 <GameData>
   <Traits>
     	<Row>
-			<Type>TRAIT_LAND_TRADE_GOLD</Type>
-			<Description>TXT_KEY_TRAIT_LAND_TRADE_GOLD2</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LAND_TRADE_GOLD2_SHORT</ShortDescription>
-			<FaithFromKills>100</EmbarkedToLandFlatCost>
-		</Row>
-    <Row>
-			<Type>TRAIT_WONDER_BUILDER</Type>
-			<Description>TXT_KEY_TRAIT_WONDER_BUILDER</Description>
-			<ShortDescription>TXT_KEY_TRAIT_WONDER_BUILDER_SHORT</ShortDescription>
-			<WonderProductionModifier>25</WonderProductionModifier>
-			<CapitalBuildingModifier>20</CapitalBuildingModifier> 
+		<Type>TRAIT_LAND_TRADE_GOLD</Type>
+		<Description>TXT_KEY_TRAIT_LAND_TRADE_GOLD2</Description>
+		<ShortDescription>TXT_KEY_TRAIT_LAND_TRADE_GOLD2_SHORT</ShortDescription>
+		<FaithFromKills>100</FaithFromKills>
+	</Row>
+    	<Row>
+		<Type>TRAIT_WONDER_BUILDER</Type>
+		<Description>TXT_KEY_TRAIT_WONDER_BUILDER</Description>
+		<ShortDescription>TXT_KEY_TRAIT_WONDER_BUILDER_SHORT</ShortDescription>
+		<WonderProductionModifier>25</WonderProductionModifier>
+		<CapitalBuildingModifier>20</CapitalBuildingModifier> 
+	</Row>
+	<Row>
+		<Type>TRAIT_SOLIDARITY</Type>
+		<Description>TXT_KEY_TRAIT_SOLIDARITY</Description>
+		<ShortDescription>TXT_KEY_TRAIT_SOLIDARITY_SHORT</ShortDescription>
+		<FreeSocialPoliciesPerEra>1</FreeSocialPoliciesPerEra>
+		<NearbyImprovementCombatBonus>25</NearbyImprovementCombatBonus>
+		<NearbyImprovementBonusRange>2</NearbyImprovementBonusRange>
+		<CombatBonusImprovement>IMPROVEMENT_BARBICAN</CombatBonusImprovement>
 		</Row>
   </Traits>
 </GameData>
