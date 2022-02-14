@@ -1,15 +1,16 @@
-		<Improvements>
-     <Row>
-		  	  <Type>IMPROVEMENT_BARBICAN</Type>
-		    	<Description>TXT_KEY_IMPROVEMENT_BARBICAN</Description>
+<Improvements>
+    		 <Row>
+	  	 	<Type>IMPROVEMENT_BARBICAN</Type>
+	    		<Description>TXT_KEY_IMPROVEMENT_BARBICAN</Description>
   	  		<Civilopedia>TXT_KEY_IMPROVEMENT_BARBICAN_TEXT</Civilopedia>
     			<Help>TXT_KEY_IMPROVEMENT_BARBICAN_HELP</Help>
-		  	  <ArtDefineTag>ART_DEF_IMPROVEMENT_BARBICAN</ArtDefineTag>
+	  		<ArtDefineTag>ART_DEF_IMPROVEMENT_FORT</ArtDefineTag>
+			<SpecificCivRequired>true</SpecificCivRequired>
    		  	<CivilizationType>CIVILIZATION_POLAND</CivilizationType>
-       	  <NoTwoAdjacent>true</NoTwoAdjacent>
-          <DefenseModifier>50</DefenseModifier>
-	    		<PillageGold>30</PillageGold>
+       	  		<NoTwoAdjacent>true</NoTwoAdjacent>
+       			<DefenseModifier>50</DefenseModifier>
+    			<PillageGold>30</PillageGold>
   	  		<PortraitIndex>8</PortraitIndex>
-			    <IconAtlas>FW_IMPROVEMENTS_ATLAS</IconAtlas>
+		    	<IconAtlas>FW_IMPROVEMENTS_ATLAS</IconAtlas>
 		  </Row>
-    </Improvements>
+</Improvements>
