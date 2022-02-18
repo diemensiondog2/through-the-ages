@@ -13,14 +13,75 @@
 		<WonderProductionModifier>25</WonderProductionModifier>
 		<CapitalBuildingModifier>20</CapitalBuildingModifier> 
 	</Row>
-	<Row>
-		<Type>TRAIT_SOLIDARITY</Type>
-		<Description>TXT_KEY_TRAIT_SOLIDARITY</Description>
-		<ShortDescription>TXT_KEY_TRAIT_SOLIDARITY_SHORT</ShortDescription>
-		<FreeSocialPoliciesPerEra>1</FreeSocialPoliciesPerEra>
-		<NearbyImprovementCombatBonus>25</NearbyImprovementCombatBonus>
-		<NearbyImprovementBonusRange>2</NearbyImprovementBonusRange>
-		<CombatBonusImprovement>IMPROVEMENT_BARBICAN</CombatBonusImprovement>
+		<Row>
+			<Type>TRAIT_ENHANCED_GOLDEN_AGES</Type>
+			<Description>TXT_KEY_TRAIT_ENHANCED_GOLDEN_AGES</Description>
+			<ShortDescription>TXT_KEY_TRAIT_ENHANCED_GOLDEN_AGES_SHORT</ShortDescription>
+			<ImprovementMaintenanceModifier>-100</ImprovementMaintenanceModifier>
+		</Row>
+		<Row>
+			<Type>TRAIT_CONVERTS_SEA_BARBARIANS</Type>
+			<Description>TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS</Description>
+			<ShortDescription>TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT</ShortDescription>
+			<TechFromCityConquer>1</TechFromCityConquer> 
+		</Row>
+		<Row>
+			<Type>TRAIT_CITY_STATE_FRIENDSHIP</Type>
+			<Description>TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP</Description>
+			<ShortDescription>TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_SLAYER_OF_TIAMAT</Type>
+			<Description>TXT_KEY_TRAIT_SLAYER_OF_TIAMAT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_SLAYER_OF_TIAMAT_SHORT</ShortDescription>
+			<PlunderModifier>200</PlunderModifier>
+		</Row>
+		<Row>
+			<Type>TRAIT_EXTRA_BELIEF</Type>
+			<Description>TXT_KEY_TRAIT_EXTRA_BELIEF</Description>
+			<ShortDescription>TXT_KEY_TRAIT_EXTRA_BELIEF_SHORT</ShortDescription>
+			<CultureBuildingYieldChange>1</CultureBuildingYieldChange>
+
 		</Row>
   </Traits>
+  <Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_CONVERTS_SEA_BARBARIANS</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_SIEGE</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CONVERTS_SEA_BARBARIANS</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_VOLLEY</PromotionType>
+		</Row>
+  </Trait_FreePromotionUnitCombats>
+  <Trait_SpecialistYieldChanges>
+		<Row>
+			<TraitType>TRAIT_CITY_STATE_FRIENDSHIP</TraitType>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CITY_STATE_FRIENDSHIP</TraitType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CITY_STATE_FRIENDSHIP</TraitType>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<TraitType>CITY_STATE_FRIENDSHIP</TraitType>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+  </Trait_SpecialistYieldChanges>
+ 
+
 </GameData>
